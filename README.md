@@ -57,22 +57,22 @@ The Fast Gradient Sign Method is an adversarial attack technique that modifies i
 ```plaintext
 CTEC-450-102-Capstone-Final-Machine-Learning-Defense/
 │
-├── train_model.py
-├── fgsm_attack.py
-├── defense.py
-├── evaluate.py
-├── mnist_model.pth
-├── mnist_defended_model.pth
+├── DT_Finale_Train_Model.py
+├── DT_Finale_fgsm_attack.py
+├── DT_Finale_fgsm_Defense.py
+├── DT_Finale_Evaluation_Script.py
+├──Model Data (Previous Training) 
+  ├── mnist_model.pth
+  └── mnist_defended_model.pth
 ├── evaluation_graph.png
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
 
 # File Descriptions
 
-## `train_model.py`
+## `DT_Final_Train_Model.py`
 
 Trains the original neural network classifier using the MNIST dataset.
 
@@ -91,7 +91,7 @@ mnist_model.pth
 
 ---
 
-## `fgsm_attack.py`
+## `DT_Final_fgsm_attack.py`
 
 Implements the FGSM adversarial attack against the trained model.
 
@@ -104,7 +104,7 @@ Implements the FGSM adversarial attack against the trained model.
 
 ---
 
-## `defense.py`
+## `DT_Final_fgsm_Defense.py`
 
 Implements adversarial training to improve robustness against attacks.
 
@@ -122,7 +122,7 @@ mnist_defended_model.pth
 
 ---
 
-## `evaluate.py`
+## `DT_Final_Evaluation_Script.py`
 
 Compares the performance of:
 
@@ -336,4 +336,3 @@ Microsoft Research. (2020, June 30). A newly discovered principle reveals how ad
 Practical DevSecOps. Fast gradient sign method (FGSM). https://www.practical-devsecops.com/glossary/fast-gradient-sign-method-fgsm/
 
 PyTorch Documentation. (2026). PyTorch documentation. PyTorch Foundation. https://pytorch.org/docs/stable/index.html
-
