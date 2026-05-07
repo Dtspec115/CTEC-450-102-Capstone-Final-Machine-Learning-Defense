@@ -280,7 +280,7 @@ These results demonstrate that:
 
 # Evaluation Graph
 
-![Evaluation Graph](EvaluationGraph.png)
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/ba564e93-e7a4-4bde-9714-070d912dee00" />
 
 ---
 
