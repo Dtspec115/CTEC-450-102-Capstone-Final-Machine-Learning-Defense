@@ -160,12 +160,6 @@ cd CTEC-450-102-Capstone-Final-Machine-Learning-Defense
 ## 3. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
-```
-
-Or manually install:
-
-```bash
 pip install torch torchvision matplotlib numpy
 ```
 
@@ -183,16 +177,7 @@ python DT_Final_Train_Model.py
 
 ### Expected Output
 
-```plaintext
-Starting Training...
-
-Epoch 1/5, Loss: ...
-Epoch 2/5, Loss: ...
-
-Test Accuracy: 97%+
-
-Model saved as mnist_model.pth
-```
+<img width="1910" height="321" alt="Image" src="https://github.com/user-attachments/assets/0405aa07-b614-4a0c-a021-7dc9306fed54" />
 
 ---
 
@@ -222,18 +207,7 @@ python DT_Finale_fgsm_Defense.py
 
 ### Expected Output
 
-```plaintext
-Starting Adversarial Training...
-
-Epoch 1, Loss: ...
-Epoch 2, Loss: ...
-
-Testing Model After Defense...
-
-Test Accuracy: ...
-
-Defended model saved as mnist_defended_model.pth
-```
+<img width="1919" height="400" alt="Image" src="https://github.com/user-attachments/assets/190cf056-65cd-483e-b691-9e6fb06d9fca" />
 
 ---
 
@@ -247,19 +221,7 @@ python DT_Final_Evaluation_Script.py
 
 ### Example Output
 
-```plaintext
-================ RESULTS ================
-
-Clean Model Accuracy:        97.58%
-Clean Model (FGSM Attack):   0.29%
-
---- After Defense ---
-
-Defended Model Accuracy:     95.07%
-Defended Model (FGSM Attack):81.72%
-
-========================================
-```
+<img width="1396" height="515" alt="Image" src="https://github.com/user-attachments/assets/7d87b4e5-4695-4a36-9715-04eb458f8cfb" />
 
 ---
 
@@ -267,7 +229,7 @@ Defended Model (FGSM Attack):81.72%
 
 | Model          | Clean Accuracy | Accuracy Under FGSM |
 | -------------- | -------------- | ------------------- |
-| Original Model | 97.58%         | 0.29%               |
+| Original Model | 97.58%         | 10.35%               |
 | Defended Model | 95.07%         | 81.72%              |
 
 These results demonstrate that:
