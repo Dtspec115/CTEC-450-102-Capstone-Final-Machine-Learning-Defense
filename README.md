@@ -280,20 +280,7 @@ These results demonstrate that:
 
 # Evaluation Graph
 
-The project includes a visualization comparing:
-
-* Clean model accuracy
-* Model accuracy under attack
-* Defended model performance
-
-Example:
-
-```plaintext
-Clean Model        → 97.58%
-Clean + FGSM       → 0.29%
-Defended Model     → 95.07%
-Defended + FGSM    → 81.72%
-```
+![Evaluation Graph](Evaluation_Graph.png)
 
 ---
 
