@@ -280,7 +280,7 @@ These results demonstrate that:
 
 # Evaluation Graph
 
-![Evaluation Graph](Evaluation_Graph.png)
+![Evaluation Graph](EvaluationGraph.png)
 
 ---
 
